@@ -75,8 +75,9 @@ if (enemySize.x < playerSize.x + playerSize.width &&
    enemySize.x + enemySize.width > playerSize.x &&
    enemySize.y < playerSize.y + playerSize.height &&
    enemySize.height + enemySize.y > playerSize.y) {
-    alert("Try Again");
-    // collision detected!
+   alert("Try Again");
+   this.y = 435;
+   this.x = 200
 };
 
 
